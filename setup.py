@@ -6,6 +6,7 @@ setup(name='quickextract',
       queries',
       author='Trevor Burke',
       author_email='trevorpburke@gmail.com',
+      website='https://github.com/trevorpburke/quickextract/',
       license='MIT',
       packages=['quickextract'],
       zip_safe=False)

@@ -6,7 +6,7 @@ quickextract connects to dbs using the create_engine function in sqlalchemy.
 
 Example:
 
-    from quickextract import extract_tools
+    from quickextract import SQL_Extract 
     conn = SQL_Extract('postgresql://username:password@host:port/database')
     conn.csv('select * from table', 'sample')
-    # generates a CSV in the current working directory
+    # generates sample.csv in the current working directory
